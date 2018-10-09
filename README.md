@@ -1,11 +1,11 @@
-# argl-react
+# ArGL-react
 
 [ArGL](https://github.com/deadalusmask/ArGL) react wrapper
 
-# Install
+## Install
 `yarn add -D argl-react`
 
-# Usage
+## Usage
 ```jsx
 import React, { Component } from 'react'
 import ReArGL from 'argl-react'
@@ -15,7 +15,7 @@ export default DotsSuzanne extends Component {
     // create shaders, camera and load models, textures here
   }
   draw(time) {
-    // your draw func executes in render circle
+    // your draw func executes in render loop
   }
   render() {
     return (
@@ -30,5 +30,6 @@ export default DotsSuzanne extends Component {
         }/>
     )
   }
+}
 ```
 check `test` folder for a complete example.
